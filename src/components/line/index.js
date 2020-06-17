@@ -116,7 +116,8 @@ export default class Line extends PureComponent {
       right,
       left,
     };
-
+    return null;
+    
     return (
       <View style={styles.container} pointerEvents='none'>
         <Animated.View style={[styles.line, lineStyle]} />
