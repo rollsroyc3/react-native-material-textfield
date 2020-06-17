@@ -12,10 +12,11 @@ export default StyleSheet.create({
     paddingTop: 0, /* XXX: iOS has paddingTop set for multiline input */
     margin: 0,
     flex: 1,
-
-    textAlign: I18nManager.isRTL?
-      'right':
-      'left',
+    
+    textAlign: 'right',
+//     textAlign: I18nManager.isRTL?
+//       'right':
+//       'left',
 
     includeFontPadding: false,
     textAlignVertical: 'top',
